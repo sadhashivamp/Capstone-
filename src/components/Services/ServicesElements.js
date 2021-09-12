@@ -8,7 +8,6 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #010696;
-  position: relative;
   margin-top: 50px;
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -45,7 +44,8 @@ export const ServicesCard = styled.div`
   align-items: center;
   border-radius: 10px;
 
-  max-height: 340px;
+  max-height: 450px;
+  width: 450px;
   padding: 30px;
   box-shadow: 01px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -58,8 +58,8 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: 150px;
+  width: 150px;
   margin-bottom: 10px;
 `;
 

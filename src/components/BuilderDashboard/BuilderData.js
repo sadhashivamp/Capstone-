@@ -13,13 +13,13 @@ export const builderData = [
   },
   {
     title: "Available",
-    path: "/post",
+    path: "/Bpost",
     icon: <IoIcons.IoIosPaper />,
     cName: "nav-text",
   },
   {
     title: "My Bids",
-    path: "/projects",
+    path: "/Bprojects",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
   },

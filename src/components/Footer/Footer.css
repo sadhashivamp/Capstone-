@@ -8,12 +8,14 @@
   background: darkslategray;
   height: 100%;
   margin-top: 5%;
+  position: relative;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 20px;
 }
 
 a.social {

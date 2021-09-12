@@ -12,13 +12,13 @@ export const userData = [
   },
   {
     title: "Post A Project",
-    path: "/post",
+    path: "/Upost",
     icon: <IoIcons.IoIosPaper />,
     cName: "nav-text",
   },
   {
     title: "Projects",
-    path: "/projects",
+    path: "/Uprojects",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
   },

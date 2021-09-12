@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import User from "./components/Login/User";
@@ -28,38 +28,34 @@ const App = () => {
   return (
     <div className="cap-body">
       <Router>
+        {/* NavBar */}
         <Navbar />
-        <Switch>
-          <Route exact path="/home" component={ImageSlider}></Route>
-          <Route exact path="/login" component={Login}></Route>
-          <Route exact path="/signup" component={Signup}></Route>
-          <Route exact path="/user" component={User}></Route>
-          <Route exact path="/builder" component={Builder}></Route>
-        </Switch>
-      </Router>
+        <Route exact path="/home" component={ImageSlider}></Route>
+        <Route exact path="/login" component={Login}></Route>
+        <Route exact path="/signup" component={Signup}></Route>
+        <Route exact path="/user" component={User}></Route>
+        <Route exact path="/builder" component={Builder}></Route>
 
-      <Router>
+        {/* User Dashboard */}
         <Route exact path="/userdashboard" component={UserDashboard} />
-
         <Route exact path="/usrprfl" component={UsrPrfl} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/post" component={Post} />
+        <Route exact path="/Uprojects" component={Projects} />
+        <Route exact path="/Upost" component={Post} />
         <Route exact path="/notifications" component={Notifications} />
         <Route exact path="/chats" component={Chats} />
-      </Router>
 
-      <Router>
+        {/* Builder Dashboard */}
         <Route exact path="/builderdashboard" component={BuilderDashboard} />
-
         <Route exact path="/builderprofile" component={BuilderProfile} />
-        <Route exact path="/projects" component={MyBids} />
-        <Route exact path="/post" component={Available} />
+        <Route exact path="/Bprojects" component={MyBids} />
+        <Route exact path="/Bpost" component={Available} />
         <Route exact path="/Bnotifications" component={Notifications} />
         <Route exact path="/Bchats" component={Chats} />
+
+        <Services />
+        <Testimonials />
+        <Footer />
       </Router>
-      <Services />
-      <Testimonials />
-      <Footer />
     </div>
   );
 };

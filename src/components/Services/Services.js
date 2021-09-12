@@ -38,7 +38,8 @@ const Services = () => {
           <ServicesIcon src={vertualOffices} />
           <ServicesH2>Vertual offices</ServicesH2>
           <ServicesP>
-            we help reduce your budjet and increase your overall Satisfaction
+            We have multiple offices in multiple places and we provide our
+            service in every were in India
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
