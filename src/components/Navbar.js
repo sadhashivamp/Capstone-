@@ -33,7 +33,7 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <button type="button" class="btn btn-outline-success btn-lg">
+                <button type="button" class="btn btn-primary btn-lg">
                   Login
                 </button>
               </NavLink>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/signup">
-                <button type="button" class="btn btn-outline-success btn-lg">
+                <button type="button" class="btn btn-primary btn-lg">
                   SignUp
                 </button>
               </NavLink>

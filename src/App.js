@@ -52,6 +52,7 @@ const App = () => {
         <Route exact path="/Bnotifications" component={Notifications} />
         <Route exact path="/Bchats" component={Chats} />
 
+        {/* Services, Testimonials, Footer */}
         <Services />
         <Testimonials />
         <Footer />
